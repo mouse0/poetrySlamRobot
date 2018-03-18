@@ -1,0 +1,64 @@
+@charset "utf-8";
+<style>
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container {width:500px;
+      margin:15px 15px;
+      padding:10px 25px;
+      border:#0DB900solid #ccc;
+      background:#fff; }
+.button {
+	display: inline-block;
+  	padding: 15px 25px;
+  	font-size: 24px;
+  	cursor: pointer;
+  	text-align: center;
+  	text-decoration: none;
+  	outline: none;
+  	color: #fff;
+  	background-color: #FF69B4;
+  	border: none;
+  	border-radius: 50px;
+ 	box-shadow: 0 3px #999;
+	font-family:arial;
+	font-size:200%;
+	position:relative;
+	margin-left: 30px;
+	margin-bottom:40px;
+	margin-top:-50px;
+}
+
+.button:hover {background-color: #CD5C5C}
+
+.button:active {
+  background-color: #4B0082;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</stlye>
+<style type="text/css">
+	
+#locator { position: absolute; visibility: visible; left:30px; top: 29px;}
+
+</style>

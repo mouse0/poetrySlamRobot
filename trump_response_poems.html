@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Response poems</title>
+</head>
+<style>
+.button {
+	display: inline-block;
+  	padding: 15px 25px;
+  	font-size: 24px;
+  	cursor: pointer;
+  	text-align: center;
+  	text-decoration: none;
+  	outline: none;
+  	color: #fff;
+  	background-color: #FF69B4;
+  	border: none;
+  	border-radius: 50px;
+ 	box-shadow: 0 3px #999;
+	font-family:arial;
+	font-size:200%;
+	position:relative;
+	margin-left: 30px;
+	margin-bottom:40px;
+	margin-top:-50px;
+}
+
+.button:hover {background-color: #CD5C5C}
+
+.button:active {
+  background-color: #4B0082;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+	
+textarea {
+    width: 70%;
+    height: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+	font-family: arial;
+    resize: none;
+}
+	
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	font-family: arial}
+</style>
+<style type="text/css">
+	
+#locator { position: absolute; visibility: visible; left:30px; top: 29px;}
+
+</style>
+<style>
+</style>
+<body>
+
+	<h1 style="font-family:Arial; font-size: 400%; position:fi; margin-bottom:25px; position:relative">CoPo</h1>
+	<!-- <div id="locator">
+	<img src="Untitled-1.png" width=30%; height=30%><br>
+	</div> -->
+	<button class="button" onclick="newResponse(); newResponse_Image();">Go</button>
+	<!--<br>
+	<br>
+	<br>
+	<br>
+	<br> -->
+	<br>
+	<script src="javascript.js"></script>
+	<div id="responseDisplay" style="font-family:arial">
+		<! -- Poetry project will display here -->	
+	</div>
+	<br>
+	<script src="javascript.js"></script>
+	<img id="response_imageDisplay" width="50%" height="50%">
+	<br>
+	<br>
+	<form>
+  		<textarea>One line of poetry or more...</textarea>
+		<br>
+		<br>
+  		<input type="submit" value="Submit" style="font-family:arial">
+	</form>
+</body>
+</html>
